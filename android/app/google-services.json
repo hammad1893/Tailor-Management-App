@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432894218802",
+    "project_id": "travelling-app-2776a",
+    "storage_bucket": "travelling-app-2776a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432894218802:android:aebac0e9a58bddfb24622b",
+        "android_client_info": {
+          "package_name": "com.example.tailor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaMtWjaNHyFATFmLsnLB6hTefSMMkUhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
