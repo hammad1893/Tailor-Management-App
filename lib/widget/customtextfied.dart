@@ -32,14 +32,22 @@ class _CustomtextfiedState extends State<Customtextfied> {
       decoration: InputDecoration(
         labelText: widget.label,
         hintText: widget.hintText,
-        suffixIcon:
-            widget.suffixIcon != null
-                ? IconButton(
-                  onPressed: widget.onSuffixTap,
-                  icon: Icon(widget.suffixIcon),
-                )
-                : null,
+
+        suffixIcon: widget.suffixIcon != null
+            ? IconButton(
+                onPressed: widget.onSuffixTap,
+                icon: Icon(widget.suffixIcon),
+              )
+            : null,
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: BorderSide(color: Colors.grey.shade300),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: BorderSide(color: Colors.blue.shade300),
+        ),
       ),
     );
   }

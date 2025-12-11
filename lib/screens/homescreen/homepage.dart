@@ -58,6 +58,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Appcolors.backgroundcolor,
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: Appcolors.backgroundcolor,
         title: isearching
             ? TextField(
@@ -224,7 +225,7 @@ class _HomePageState extends State<HomePage> {
         borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.1),
+            color: Colors.grey.withOpacity(0.2),
             blurRadius: 8,
             offset: const Offset(0, 2),
           ),
